@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Timeline - Os últimos 5 anos entre front-end e back-end (2013 - 2018)</title>
+
+    <link rel="stylesheet" href="assets/reveal.css">
+    <link rel="stylesheet" href="assets/hernandes.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="assets/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- 
+          <p class="footer">@onhernandes</p> f6e813
+        -->
+
+        <section>
+          <h2 class="main-title">Timeline - Os últimos 5 anos entre front-end e back-end (2013 - 2018)</h2>
+          <img src="/assets/img/mario-green-mushroom.jpg" style="transform: translateY(5rem);"/>
+        </section>
+
+        <section data-background-color="#222831">
+          <img src="/assets/img/me.jpg" width="250" style="margin-bottom: 2rem;"/>
+          <h3 class="yellow-link">Hernandes</h3>
+          <p>Desenvolvedor Back-End</p>
+          <p>Co-Org <a style="color: white" href="https://twitter.com/BackEndBrasil">@BackEndBrasil</a></p>
+          <p>Podcaster <a style="color: white" href="https://quebradev.com.br">@QuebraDev</a></p>
+          <a href="https://hernandes.io" class="yellow-link">@onhernandes | hernandes.io</a>
+        </section>
+
+        <section>
+          <h3>Requisições</h3>
+          <img src="/assets/img/screenshot-network-backendbr.jpg" alt=""/>
+        </section>
+      </div>
+    </div>
+
+    <script src="assets/head.min.js"></script>
+    <script src="assets/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        transition: 'fade',
+        backgroundTransition: 'fade',
+        dependencies: [
+          { src: 'plugin/markdown/marked.js' },
+          { src: 'plugin/markdown/markdown.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+      });
+    </script>
+  </body>
+</html>
